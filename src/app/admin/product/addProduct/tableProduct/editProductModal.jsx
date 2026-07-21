@@ -10,7 +10,7 @@ import {
   useDisclosure,
 } from "@nextui-org/react";
 
-import  prisma  from "../../../../../prisma/client";
+// import  prisma  from "../../../../../prisma/client";
 
 const EditProductModal = async ({ productInfo, onSave, onCancel })=> {
   const [editedProduct, setEditedProduct] = useState(productInfo);
